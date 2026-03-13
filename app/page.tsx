@@ -287,7 +287,6 @@ export default function Home() {
             <div className="section-label">{t("about-label")}</div>
             <h2 className="section-title">{t("about-title")}</h2>
             <p>{t("about-text")}</p>
-            {/* Terminal card decorativo */}
             <div className="terminal-card">
               <div className="terminal-bar">
                 <span /><span /><span />
@@ -378,7 +377,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Dots indicator */}
           <div className="carousel-dots">
             {Array.from({ length: maxIndex + 1 }).map((_, i) => (
               <button key={i} className={`carousel-dot ${carouselIndex === i ? "active" : ""}`}
@@ -388,7 +386,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── CONTACT ── */}
         <section id="contact" className="section-contact">
           <RevealSection>
             <div className="section-label">{t("contact-label")}</div>
@@ -401,7 +398,6 @@ export default function Home() {
         </section>
       </main>
 
-      {/* ── FOOTER ── */}
       <footer className="footer">
         <div className="footer-top">
           <RevealSection className="footer-brand">
